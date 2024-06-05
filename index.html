@@ -11,61 +11,228 @@
 </head>
 
 <body>
-    <header class="logo">
-        <a href="./index.html" alt="logo, click for the home page">
-            <img src="./assests/logo.jpg" alt="Sri Kanaka Durga Granites and Nano White">
+    <header class="header">
+        <a href="./index.html" alt="header, click for refresh">
+            <img src="./assests/photo.jpg" alt="logo">
         </a>
+
+        <nav class="navbar">
+            <p class="navbar-title">Main Menu</p>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about-us" class="navbar-link">About Us</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item">
+                            <a href="#about-us" class="sub-menu-link">Company</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="#reviews" class="sub-menu-link">Customer Reviews</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="#products" class="navbar-link">Products</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item">
+                            <a href="#about-us" class="sub-menu-link">Natural Granites</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="#reviews" class="sub-menu-link">Artificial Granites</a>
+                        </li>
+                        <li class="sub-menu-item">
+                            <a href="#reviews" class="sub-menu-link">Nano White</a>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="#blogs" class="navbar-link">Blogs</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact-us" class="navbar-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <div class="scroll-container">
-        <img id="coverphoto" src="./assests/cover.jpg" alt="Sri Kanaka Durga Granites and Nano White" width="300"
-            height="auto">
-    </div>
+    <main>
+        <article>
 
-    <!--<div draggable="true">
-        <h2>About :</h2>
-        <p>
-            Sri Kanaka Durga Granites and Nano White is a leading
-            supplier of Granite Slabs, Nano White Marble and etc.<br />
-            We offer these products at reasonable rates
-            and deliver these within the promised time-frame.
-        </p>
-    </div>-->
+            <!-- need to edit this below section like adding cover-->
+            <section class="section_1" id="home">
+                <div class="section-content">
+                    <h1>Welcome to Sri Kanaka Durga Granites and Nano White</h1>
+                    <p>
+                        We are a leading supplier of Granite Slabs, Nano White Marble and etc.
+                    </p>
+            </section>
 
-    <div class="products">
-        <h2>Products :</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="./granites.html"><img class="scover" src="./assests/granites.jpeg" width="100px"
-                                alt="granites image" /></a>
-                    </td>
-                    <td>
-                        <a href="./Nanowhite.html"><img class="scover" src="./assests/nano.jpg" width="100px"
-                                alt="nanowhite image" /></a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
 
-    <!--<div>
-        <h2>Address :</h2>
-        <p>
-            Gate No. 1, Metro pillar No. 615, Miyapur Rd,<br />
-            Mathrusree Nagar, Hafeezpet, Miyapur, <br />
-            Telangana 500049
-        </p>
-    </div>
 
-    <div>
-        <h2>Contact Us : </h2>
+            <section class="projects" id="projects">
+                <div class="section-content">
+                    <div class="section-title">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+                <ul class="projects-list">
+                    <li>
+                        <div class="project-card">
+                            <a href="/project_1.html">
+                                <figure class="card-image">
+                                    <img src="./assests/project_1.jpg" alt="project 1" />
+                                </figure>
+                            </a>
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="h2">
+                                        <a href="" class="card-title ">Project 1</a>
+                                    </h3>
+                                    <p class="card-tag">Hyderabad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="project-card">
+                            <a href="/project_2.html">
+                                <figure class="card-image">
+                                    <img src="./assests/project_2.jpg" alt="project 2" />
+                                </figure>
+                            </a>
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="h2">
+                                        <a href="" class="card-title ">Project 2</a>
+                                    </h3>
+                                    <p class="card-tag">Hyderabad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
 
-        <a class=contact href="tel:+919494764896">Phone</a> <br />
-        <a class=contact
-            href="https://www.google.co.in/maps/place/Sri+Kanaka+Durga+Granite+%26+Nano+White/@17.4966207,78.3700517,17z/data=!4m6!3m5!1s0x3bcb93bc46f28d3f:0xecc1fed975d3197a!8m2!3d17.4960357!4d78.3696038!16s%2Fg%2F11pgsz46hq?entry=ttu">Location</a><br />
-        <a class=contact href="">srikanakadurgagranitez@gmail.com</a><br />
-    </div>-->
+
+            <section class="products" id="products">
+                <div class="section-content">
+                    <div class="section-title">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+                <ul class="projects-list">
+                    <li>
+                        <div class="product-card">
+                            <a href="/natural_granites.html">
+                                <figure class="card-image">
+                                    <img src="./assests/granites.jpeg" alt="Natural Granites" width="200px" />
+                                </figure>
+                            </a>
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="h2">
+                                        <a href="" class="card-title ">Natural Granites</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-card">
+                            <a href="/Nanowhite.html">
+                                <figure class="card-image">
+                                    <img src="./assests/nano.jpg" alt="Nanowhite" width="200px" />
+                                </figure>
+                            </a>
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="h2">
+                                        <a href="" class="card-title ">Nano White</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-card">
+                            <a href="/artificial_granites.html">
+                                <figure class="card-image">
+                                    <img src="./assests/nano.jpg" alt="Artificial Granites" width="200px" />
+                                </figure>
+                            </a>
+                            <div class="card-content">
+                                <div>
+                                    <h3 class="h2">
+                                        <a href="" class="card-title ">Artificial Granites</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+
+    <footer class="footer_top">
+        <div class="container">
+            <div class="footer_1">
+                <section class="widget-column">
+                    <ul class="menu_1">
+                        <li class="footer-widget">
+                            <h3>Address</h3>
+                            <a href="https://www.google.com/maps/place/Sri+Kanaka+Durga+Granite+%26+Nano+White/@17.49618,78.3669924,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d78.368655!2d17.4956461!4e1!1m6!1m2!1s0x3bcb93bc46f28d3f:0xecc1fed975d3197a!2sSri+Kanaka+Durga+Granite+%26+Nano+White!2m2!1d78.3695673!2d17.49618!3m5!1s0x3bcb93bc46f28d3f:0xecc1fed975d3197a!8m2!3d17.49618!4d78.3695673!16s%2Fg%2F11pgsz46hq?hl=en-GB&entry=ttu"
+                                target="_blank" rel="noopener">Gate No. 1, Metro pillar No. 615, Matrusri
+                                Nagar,<br>
+                                Miyapur, Hyderabad, Telangana 500049</a>
+                        </li>
+                        <li class="footer-widget">
+                            <h3>Phone</h3>
+                            <a href="tel:+919959849289">+91 9959849289</a>
+                        </li>
+                        <li class="footer-widget">
+                            <h3>Email</h3>
+                            <a href="mailto:srikanakadurgagranitez@gmail.com">srikanakadurgagranitez@gmail.com</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="footer_2">
+                <section class="widget-column">
+                    <ul class="menu_2">
+                        <li class="footer-widget">
+                            <h3>About Us</h3>
+                            <ul>
+                                <li><a href="#home">Company</a></li>
+                                <li><a href="#about-us">Customer Reviews</a></li>
+                                <li><a href="#blogs">Blogs</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="footer_3">
+                <section class="widget-column">
+                    <ul class="menu_3">
+                        <li class="footer-widget">
+                            <h3>Customer Support</h3>
+                            <ul>
+                                <li><a href="tel:+919494764896">Get Quote</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2021 Sri Kanaka Durga Granites and Nano White. All Rights Reserved.</p>
+                </div>
+            </div>
+    </footer>
 </body>
 
 </html>
