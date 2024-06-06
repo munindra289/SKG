@@ -1,0 +1,90 @@
+/* General reset for box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 50px 120px;
+    transition: all 0.5s;
+}
+
+/* Logo container styling */
+.logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.logo-div img {
+    width: 300px;
+    height: auto;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar-item {
+    margin-left: 55px;
+    align-items: center;
+    font-size: larger;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-link:hover {
+    color: #007bff;
+}
+
+/* Sub-menu styling */
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(24, 23, 23, 0.1);
+    margin-top: 10px;
+    list-style: none;
+}
+
+.sub-menu-item {
+    margin: 0;
+}
+
+.sub-menu-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu-link:hover {
+    background-color: #ffffff;
+}
