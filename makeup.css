@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    padding: 50px 120px;
+    padding: 30px 60px;
     transition: all 0.5s;
 }
 
@@ -23,11 +23,16 @@ body {
 .logo-div {
     display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 
-.logo-div img {
-    width: 300px;
-    height: auto;
+#logopng {
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 /* Navbar styling */
@@ -87,4 +92,11 @@ body {
 
 .sub-menu-link:hover {
     background-color: #ffffff;
+}
+
+/* Adding arrow indicator for dropdown items */
+.navbar-item>.navbar-link::after {
+    content: '';
+    font-size: 0.8em;
+    margin-left: 5px;
 }
