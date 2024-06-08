@@ -55,13 +55,13 @@ body {
 
 .navbar-link {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .navbar-link:hover {
-    color: #007bff;
+    color: #747474;
 }
 
 /* Sub-menu styling */
@@ -70,9 +70,12 @@ body {
     position: absolute;
     background-color: #ffffff;
     border: 1px solid #ffffff;
-    box-shadow: 0 2px 8px rgba(24, 23, 23, 0.1);
+    box-shadow: 0 2px 8px rgba(49, 48, 48, 0.1);
     margin-top: 10px;
     list-style: none;
+    /* Start position for the animation */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition */
 }
 
 .sub-menu-item {
@@ -81,22 +84,24 @@ body {
 
 .sub-menu-link {
     text-decoration: none;
-    color: #333;
+    color: black;
     padding: 10px 20px;
     display: block;
 }
 
 .navbar-item:hover .sub-menu {
     display: block;
+
 }
 
 .sub-menu-link:hover {
-    background-color: #ffffff;
+    background-color: transparent;
+    color: #747474;
+    font-weight: bold;
 }
 
-/* Adding arrow indicator for dropdown items */
-.navbar-item>.navbar-link::after {
-    content: '';
-    font-size: 0.8em;
-    margin-left: 5px;
+.down-arrow {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
 }
