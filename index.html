@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Sri Kanaka Durga Granites and Nano White</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assests/durgaa.png" type="image/x-icon">
     <link rel="stylesheet" href="makeup.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 
@@ -25,7 +27,7 @@
                 </li>
                 <li class="navbar-item">
                     <a href="#about-us" class="navbar-link">About Us
-                        <img class="down-arrow" src="./assests/Untitled design (13).png" alt="down-arrow">
+                        <img class="down-arrow" src="./assests/downarrow.png" alt="down-arrow">
                     </a>
                     <ul class="sub-menu">
                         <li class="sub-menu-item">
@@ -39,7 +41,7 @@
                 </li>
                 <li class="navbar-item">
                     <a href="#products" class="navbar-link">Products
-                        <img class="down-arrow" src="./assests/Untitled design (13).png" alt="down-arrow">
+                        <img class="down-arrow" src="./assests/downarrow.png" alt="down-arrow">
                     </a>
                     <ul class="sub-menu">
                         <li class="sub-menu-item">
@@ -62,41 +64,46 @@
             </ul>
         </nav>
     </header>
+
+
+    <!------------------------------------------------------------------------------------------------------------->
+
     <main>
         <article>
 
             <!-- need to edit this below section like adding cover-->
             <section class="section_1" id="home">
-                <div class="section-content">
-                    <h1>Welcome to Sri Kanaka Durga Granites and Nano White</h1>
-                    <p>
-                        We are a leading supplier of Granite Slabs, Nano White Marble and etc.
-                    </p>
+                <div>
+                    <img src="./assests/cover1 .png" alt="cover">
+                    <div class="Welcome">
+                        <h1>
+                            BEAUTY, INNOVATION, PRRFECTION
+                        </h1>
+                        <p>Natural Granite, Nano White,
+                            <br>and Artificial Granite
+                        </p>
+                        <button class="quote-button"><a href="tel:+919494764896">Get Quote</a></button>
+                    </div>
+                </div>
             </section>
 
-
-
-            <section class="projects" id="projects">
-                <div class="section-content">
-                    <div class="section-title">
-                        <h2>Projects</h2>
-                    </div>
+            <section class="projects">
+                <div class="section-title">
+                    <h2>View our Projects</h2>
                 </div>
                 <ul class="projects-list">
                     <li>
                         <div class="project-card">
                             <a href="/project_1.html">
                                 <figure class="card-image">
-                                    <img src="./assests/project_1.jpg" alt="project 1" />
+                                    <img src="./assests/project_1.png" alt="project 1" />
                                 </figure>
                             </a>
                             <div class="card-content">
-                                <div>
-                                    <h3 class="h2">
-                                        <a href="" class="card-title ">Project 1</a>
-                                    </h3>
-                                    <p class="card-tag">Hyderabad</p>
-                                </div>
+                                <h3 class="card-title">
+                                    <a href="./project_1.html">Project 1</a>
+                                </h3>
+                                <p class="card-tag">Hyderabad</p>
                             </div>
                         </div>
                     </li>
@@ -104,75 +111,69 @@
                         <div class="project-card">
                             <a href="/project_2.html">
                                 <figure class="card-image">
-                                    <img src="./assests/project_2.jpg" alt="project 2" />
+                                    <img src="./assests/project_3.png" alt="project 2" />
                                 </figure>
                             </a>
                             <div class="card-content">
-                                <div>
-                                    <h3 class="h2">
-                                        <a href="" class="card-title ">Project 2</a>
-                                    </h3>
-                                    <p class="card-tag">Hyderabad</p>
-                                </div>
+                                <h3 class="card-title">
+                                    <a href="./project_2.html">Project 2</a>
+                                </h3>
+                                <p class="card-tag">Hyderabad</p>
                             </div>
                         </div>
                     </li>
                 </ul>
+                <div class="button">
+                    <a href="/projects.html">View All Projects &#8594;</a>
+                </div>
             </section>
 
+            <!------------------------------------------------------------------------------------------------------------------>
 
-            <section class="products" id="products">
-                <div class="section-content">
-                    <div class="section-title">
-                        <h2>Products</h2>
-                    </div>
+            <section class="product">
+                <div class="section-title">
+                    <h2>Products we offer</h2>
                 </div>
-                <ul class="products-list">
+                <ul class="product-list">
                     <li>
                         <div class="product-card">
                             <a href="/natural_granites.html">
-                                <figure class="card-image">
+                                <figure class="product-card-image">
                                     <img src="./assests/granites.jpeg" alt="Natural Granites" width="200px" />
                                 </figure>
                             </a>
-                            <div class="card-content">
-                                <div>
-                                    <h3 class="h2">
-                                        <a href="" class="card-title ">Natural Granites</a>
-                                    </h3>
-                                </div>
+                            <div class="product-card-content">
+                                <h3 class="product-card-title">
+                                    <a href="">Natural Granites</a>
+                                </h3>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="product-card">
                             <a href="/Nanowhite.html">
-                                <figure class="card-image">
+                                <figure class="product-card-image">
                                     <img src="./assests/nano.jpg" alt="Nanowhite" width="200px" />
                                 </figure>
                             </a>
-                            <div class="card-content">
-                                <div>
-                                    <h3 class="h2">
-                                        <a href="" class="card-title ">Nano White</a>
-                                    </h3>
-                                </div>
+                            <div class="product-card-content">
+                                <h3 class="product-card-title">
+                                    <a href="">Nano White</a>
+                                </h3>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="product-card">
                             <a href="/artificial_granites.html">
-                                <figure class="card-image">
+                                <figure class="product-card-image">
                                     <img src="./assests/nano.jpg" alt="Artificial Granites" width="200px" />
                                 </figure>
                             </a>
-                            <div class="card-content">
-                                <div>
-                                    <h3 class="h2">
-                                        <a href="" class="card-title ">Artificial Granites</a>
-                                    </h3>
-                                </div>
+                            <div class="product-card-content">
+                                <h3 class="product-card-title">
+                                    <a href="">Artificial Granites</a>
+                                </h3>
                             </div>
                         </div>
                     </li>
@@ -181,12 +182,12 @@
         </article>
     </main>
 
-
-    <footer class="footer_top">
+    <!------------------------------------------------------------------------------------------------------------->
+    <footer class="footer">
         <div class="container">
             <div class="footer_1">
                 <section class="widget-column">
-                    <ul class="menu_1">
+                    <ul class="menu">
                         <li class="footer-widget">
                             <h3>Address</h3>
                             <a href="https://www.google.com/maps/place/Sri+Kanaka+Durga+Granite+%26+Nano+White/@17.49618,78.3669924,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d78.368655!2d17.4956461!4e1!1m6!1m2!1s0x3bcb93bc46f28d3f:0xecc1fed975d3197a!2sSri+Kanaka+Durga+Granite+%26+Nano+White!2m2!1d78.3695673!2d17.49618!3m5!1s0x3bcb93bc46f28d3f:0xecc1fed975d3197a!8m2!3d17.49618!4d78.3695673!16s%2Fg%2F11pgsz46hq?hl=en-GB&entry=ttu"
@@ -207,10 +208,10 @@
             </div>
             <div class="footer_2">
                 <section class="widget-column">
-                    <ul class="menu_2">
-                        <li class="footer-widget">
+                    <ul class="menu">
+                        <li class="f">
                             <h3>About Us</h3>
-                            <ul>
+                            <ul class="about-us-sec">
                                 <li><a href="#home">Company</a></li>
                                 <li><a href="#about-us">Customer Reviews</a></li>
                                 <li><a href="#blogs">Blogs</a></li>
@@ -221,8 +222,8 @@
             </div>
             <div class="footer_3">
                 <section class="widget-column">
-                    <ul class="menu_3">
-                        <li class="footer-widget">
+                    <ul class="menu">
+                        <li class="f2">
                             <h3>Customer Support</h3>
                             <ul>
                                 <li><a href="tel:+919494764896">Get Quote</a></li>
@@ -232,12 +233,13 @@
                 </section>
             </div>
         </div>
+    </footer>
+    <footer class="bottom">
         <div class="footer_bottom">
             <div class="container">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2021 Sri Kanaka Durga Granites and Nano White. All Rights Reserved.</p>
-                </div>
+                <p>&copy; 2021 Sri Kanaka Durga Granites and Nano White. All Rights Reserved.</p>
             </div>
+        </div>
     </footer>
 </body>
 

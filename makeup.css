@@ -48,8 +48,9 @@ body {
 }
 
 .navbar-item {
-    margin-left: 55px;
+    margin-left: 10px;
     align-items: center;
+    padding: 20px;
     font-size: larger;
 }
 
@@ -58,10 +59,6 @@ body {
     color: #000000;
     font-weight: 500;
     transition: color 0.3s;
-}
-
-.navbar-link:hover {
-    color: #747474;
 }
 
 /* Sub-menu styling */
@@ -96,12 +93,329 @@ body {
 
 .sub-menu-link:hover {
     background-color: transparent;
-    color: #747474;
-    font-weight: bold;
+
 }
 
 .down-arrow {
     width: 30px;
     height: auto;
     vertical-align: middle;
+}
+
+.section_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Welcome {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #1d1d5e;
+}
+
+.Welcome h1 {
+    font-size: 5em;
+    font-weight: 500;
+    word-spacing: 10px;
+    line-height: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.Welcome p {
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.quote-button {
+    margin-top: 50px;
+    background-color: #1d1d5e;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quote-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.quote-button:hover {
+    background-color: #323235;
+}
+
+/* Path: projects.css */
+.projects {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.projects .section-title h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #1d1d5e;
+    margin-bottom: 80px;
+    padding-left: 2%;
+
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 0;
+    list-style: none;
+}
+
+.project-card .card-image {
+    background-color: #ffffff;
+    overflow: hidden;
+    max-width: 600px;
+    max-height: auto;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-content {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-title a {
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.1rem;
+    text-align: center;
+    color: #1d1d5e;
+    text-decoration: none;
+}
+
+.card-content a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color: #1d1d5e;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card-title a:hover::after {
+    width: 100%;
+}
+
+.card-tag {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 3px;
+}
+
+.project-card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+.button a {
+    position: absolute;
+    margin-left: 34px;
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 500;
+    color: #1d1d5e;
+    text-decoration: none;
+}
+
+.button a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #1d1d5e;
+    transition: all 0.3s ease-in-out;
+}
+
+.button a:hover::after {
+    width: 100%;
+}
+
+
+/*product styling*/
+.product {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.product .section-title h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #1d1d5e;
+    margin-bottom: 80px;
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 2%;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.product-card .product-card-image {
+    background-color: #ffffff;
+    overflow: hidden;
+    max-width: 600px;
+    max-height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.product-card .product-card-image img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product-card .product-card-content {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.product-card .product-card-title a {
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    color: #1d1d5e;
+    text-decoration: none;
+}
+
+
+.product-card:hover .product-card-image img {
+    transform: scale(1.1);
+}
+
+.product-card-content a {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: 500;
+    color: #1d1d5e;
+    text-decoration: none;
+}
+
+.product-card-content a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #1d1d5e;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-card-content a:hover::after {
+    width: 100%;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.widget-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.widget-column ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.widget-column li a {
+    text-decoration: none;
+    color: #3a3737;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s;
+}
+
+.container h3 {
+    font-size: 1.3rem;
+    color: #3a3737;
+    font-family: Arial, Helvetica, serif-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.about-us-sec li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.f {
+    margin-bottom: 120px;
+}
+
+.f2 {
+    margin-bottom: 179px;
+}
+
+.bottom {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.footer_bottom p {
+    text-align: center;
+    font-size: 1rem;
+    color: #3a3737;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
