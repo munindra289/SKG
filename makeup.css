@@ -70,9 +70,7 @@ body {
     box-shadow: 0 2px 8px rgba(49, 48, 48, 0.1);
     margin-top: 10px;
     list-style: none;
-    /* Start position for the animation */
     transition: all 0.3s ease-in-out;
-    /* Smooth transition */
 }
 
 .sub-menu-item {
@@ -88,12 +86,10 @@ body {
 
 .navbar-item:hover .sub-menu {
     display: block;
-
 }
 
 .sub-menu-link:hover {
     background-color: transparent;
-
 }
 
 .down-arrow {
@@ -418,4 +414,47 @@ body {
     color: #3a3737;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+}
+
+/* ------Multiple Devices------- */
+
+@media (max-width: 768px) {
+    .Welcome {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .Welcome h1 {
+        font-size: 3em;
+        line-height: 1.2;
+    }
+
+    .Welcome p {
+        font-size: 1.5em;
+    }
+
+    .quote-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .Welcome h1 {
+        font-size: 2em;
+        line-height: 1.2;
+    }
+
+    .Welcome p {
+        font-size: 1.2em;
+    }
+
+    .quote-button {
+        margin-top: 15px;
+        padding: 8px 15px;
+        font-size: 0.8em;
+    }
 }
