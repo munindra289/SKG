@@ -24,7 +24,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #logopng {
@@ -65,16 +64,17 @@ body {
 .sub-menu {
     display: none;
     position: absolute;
+    padding: 0px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     box-shadow: 0 2px 8px rgba(49, 48, 48, 0.1);
-    margin-top: 10px;
+    margin-top: 0px;
     list-style: none;
     transition: all 0.3s ease-in-out;
 }
 
 .sub-menu-item {
-    margin: 0;
+    margin: 0px;
 }
 
 .sub-menu-link {
@@ -86,6 +86,8 @@ body {
 
 .navbar-item:hover .sub-menu {
     display: block;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
 }
 
 .sub-menu-link:hover {
@@ -98,40 +100,43 @@ body {
     vertical-align: middle;
 }
 
-.section_1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .Welcome {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 40%;
     transform: translate(-50%, -50%);
     text-align: left;
     color: #1d1d5e;
 }
 
+.section_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .Welcome h1 {
+    position: relative;
     font-size: 5em;
     font-weight: 500;
     word-spacing: 10px;
     line-height: 100px;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
-.Welcome p {
-    font-size: 2.5em;
+.Welcome h2 {
+    position: relative;
+    font-size: 2.8em;
     font-weight: 500;
     line-height: 1.5;
 }
 
 .quote-button {
     margin-top: 50px;
+    margin-left: 4px;
     background-color: #1d1d5e;
-    padding: 15px 30px;
+    padding: 15px 30px 15px 30px;
     font-size: 1.2em;
     border: none;
     border-radius: 5px;
@@ -233,9 +238,10 @@ body {
     position: absolute;
     margin-left: 34px;
     margin-top: 50px;
+    left: 41%;
     font-family: 'Nunito', sans-serif;
     font-size: 1.4rem;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
     color: #1d1d5e;
     text-decoration: none;
@@ -349,17 +355,19 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 0px;
 }
 
 .widget-column {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 0px;
+}
+
+.widget-column ul li {
+    margin-left: 80px;
 }
 
 .widget-column ul {
@@ -369,7 +377,7 @@ body {
 
 .widget-column li a {
     text-decoration: none;
-    color: #3a3737;
+    color: #000000;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     transition: color 0.3s;
@@ -377,13 +385,14 @@ body {
 
 .container h3 {
     font-size: 1.3rem;
-    color: #3a3737;
+    color: #000000;
     font-family: Arial, Helvetica, serif-serif;
     font-weight: 600;
     text-align: left;
     padding-top: 20px;
     padding-bottom: 15px;
 }
+
 
 .about-us-sec li {
     list-style: none;
@@ -394,8 +403,17 @@ body {
     margin-bottom: 120px;
 }
 
+
+.f h3 {
+    margin-left: 80px;
+}
+
 .f2 {
     margin-bottom: 179px;
+}
+
+.f2 h3 {
+    margin-left: 80px;
 }
 
 .bottom {
